@@ -16,13 +16,9 @@ const Why = () => {
               Pourquoi Nous Choisir ?
             </h5>
             <h1 className="text-2xl md:text-4xl mb-0">
-              Nous Sommes Ici pour Faire Croître Votre Entreprise de Manière Exponentielle
+              Nos Engagements
             </h1>
           </div>
-          <p className="font-normal text-center text-lg text-black text-opacity-90 mb-5">
-            Nous sommes ici pour faire croître votre entreprise de manière exponentielle.
-            Nous fournissons les meilleurs services à nos clients.
-          </p>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 gap-lg-8">
             {/* COLUMN-1 */}
             <div className="col-span-12 lg:col-span-5">

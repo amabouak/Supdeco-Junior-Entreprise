@@ -4,7 +4,7 @@ import { FormEvent, useState } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { AiOutlineUser, AiOutlineMail, AiOutlineMessage } from "react-icons/ai";
-import { FiSend, FiPhone, FiMail, FiMapPin } from "react-icons/fi";
+import { FiSend, FiPhone, FiMail, FiMapPin, FiDollarSign } from "react-icons/fi";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 
 const Contact = () => {
@@ -90,7 +90,7 @@ const Contact = () => {
               animate={{ y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              Parlez-nous de votre projet
+              Parlons de votre projet
             </motion.h1>
             <motion.p 
               className="text-xl text-bluegrey max-w-2xl mx-auto"
@@ -98,7 +98,7 @@ const Contact = () => {
               animate={{ y: 0 }}
               transition={{ delay: 0.6 }}
             >
-              Supdeco Junior Entreprise vous accompagne avec excellence et professionnalisme
+              Remplissez le formulaire ci-dessous et nous vous répondrons sous 24h
             </motion.p>
           </motion.div>
         </BlurFade>
@@ -139,7 +139,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-bluegrey">Téléphone</p>
-                  <p className="text-gray-600">+221 77 413 04 11</p>
+                  <p className="text-gray-600">+221 77 413 04 11 - Diawo Sarr (Présidente)</p>
+                  <p className="text-gray-600">+221 77 686 15 35 - N'gamet Camara (Resp. Commercial)</p>
                 </div>
               </motion.div>
 
@@ -168,7 +169,7 @@ const Contact = () => {
               whileTap={{ scale: 0.95 }}
               className="bg-gradient-to-r from-azure-950 to-azure-500 text-white py-6 px-8 rounded-2xl font-semibold text-xl shadow-2xl mb-8 hover:shadow-3xl transition-all duration-300"
             >
-              Obtenir un devis personnalisé
+              Obtenir un devis
             </motion.button>
           </motion.div>
         </motion.div>
@@ -237,6 +238,17 @@ const Contact = () => {
                   </div>
 
                   <div className="flex items-center gap-4 bg-white/10 backdrop-blur-sm rounded-2xl px-5 py-4 border border-white/20 hover:border-white/40 transition-all">
+                    <FiPhone className="text-white/80 w-5 h-5 flex-shrink-0" />
+                    <input
+                      type="tel"
+                      name="phone"
+                      placeholder="Téléphone *"
+                      className="w-full bg-transparent outline-none text-white placeholder-white/70 font-medium"
+                      required
+                    />
+                  </div>
+
+                  <div className="flex items-center gap-4 bg-white/10 backdrop-blur-sm rounded-2xl px-5 py-4 border border-white/20 hover:border-white/40 transition-all">
                     <AiOutlineMail className="text-white/80 w-5 h-5 flex-shrink-0" />
                     <input
                       type="email"
@@ -247,11 +259,54 @@ const Contact = () => {
                     />
                   </div>
 
+                  <div className="flex items-center gap-4 bg-white/10 backdrop-blur-sm rounded-2xl px-5 py-4 border border-white/20 hover:border-white/40 transition-all">
+                    <FiMail className="text-white/80 w-5 h-5 flex-shrink-0" />
+                    <input
+                      type="text"
+                      name="subject"
+                      placeholder="Sujet *"
+                      className="w-full bg-transparent outline-none text-white placeholder-white/70 font-medium"
+                      required
+                    />
+                  </div>
+
+                  <div className="flex items-center gap-4 bg-white/10 backdrop-blur-sm rounded-2xl px-5 py-4 border border-white/20 hover:border-white/40 transition-all">
+                    <FiDollarSign className="text-white/80 w-5 h-5 flex-shrink-0" />
+                    <input
+                      type="text"
+                      name="budget"
+                      placeholder="Budget prévisionnel"
+                      className="w-full bg-transparent outline-none text-white placeholder-white/70 font-medium"
+                    />
+                  </div>
+
+                  <div className="flex flex-col gap-2 bg-white/10 backdrop-blur-sm rounded-2xl px-5 py-4 border border-white/20 hover:border-white/40 transition-all">
+                    <label className="text-white/80 text-sm">Comment avez-vous entendu parler de nous ?</label>
+                    <div className="flex flex-wrap gap-3">
+                      <label className="flex items-center gap-2 cursor-pointer">
+                        <input type="checkbox" name="source" value="google" className="accent-azure-500" />
+                        <span className="text-white text-sm">Google</span>
+                      </label>
+                      <label className="flex items-center gap-2 cursor-pointer">
+                        <input type="checkbox" name="source" value="reseaux-sociaux" className="accent-azure-500" />
+                        <span className="text-white text-sm">Réseaux sociaux</span>
+                      </label>
+                      <label className="flex items-center gap-2 cursor-pointer">
+                        <input type="checkbox" name="source" value="bouche-a-oreille" className="accent-azure-500" />
+                        <span className="text-white text-sm">Bouche à oreille</span>
+                      </label>
+                      <label className="flex items-center gap-2 cursor-pointer">
+                        <input type="checkbox" name="source" value="autre" className="accent-azure-500" />
+                        <span className="text-white text-sm">Autre</span>
+                      </label>
+                    </div>
+                  </div>
+
                   <div className="flex items-start gap-4 bg-white/10 backdrop-blur-sm rounded-2xl px-5 py-4 border border-white/20 hover:border-white/40 transition-all">
                     <AiOutlineMessage className="text-white/80 w-5 h-5 flex-shrink-0 mt-1" />
                     <textarea
                       name="message"
-                      placeholder="Décrivez votre projet..."
+                      placeholder="Décrivez votre projet... *"
                       className="w-full bg-transparent outline-none text-white placeholder-white/70 resize-none"
                       rows={4}
                       required

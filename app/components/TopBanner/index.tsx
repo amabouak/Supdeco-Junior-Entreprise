@@ -1,4 +1,5 @@
 import BlurFade from "@/app/magicui/ui/blur-fade";
+import Link from "next/link";
 
 const TopBanner = () => {
   return (
@@ -16,12 +17,14 @@ const TopBanner = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3 text-center">
-                <p className="text-azure-100 text-sm">Appelez-nous</p>
-                <p className="text-white font-semibold">+212 7 08 30 12 69</p>
+                <p className="text-azure-100 text-sm">Diawo Sarr</p>
+                <p className="text-white font-semibold">+221 77 413 04 11</p>
+                <p className="text-azure-200 text-xs">Présidente du Club</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3 text-center">
-                <p className="text-azure-100 text-sm">Email</p>
-                <p className="text-white font-semibold">contact@sje.com</p>
+                <p className="text-azure-100 text-sm">N'gamet Camara</p>
+                <p className="text-white font-semibold">+221 77 686 15 35</p>
+                <p className="text-azure-200 text-xs">Responsable Commercial</p>
               </div>
             </div>
           </div>

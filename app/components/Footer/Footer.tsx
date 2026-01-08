@@ -16,7 +16,7 @@ const footer = () => {
 
           <div className="col-span-12 lg:col-span-4 flex flex-col items-center lg:items-start">
             <Image
-              src="/assets/logo/logo_junior.png"
+              src="/assets/carousel/supdeco-remove.png"
               width={160}
               height={60}
               alt="logo"
@@ -55,33 +55,33 @@ const footer = () => {
             <div className="flex gap-2">
               <FaMapMarkerAlt className="text-azure-500 text-2xl" />
               <h5 className="text-base font-normal text-white">
-                Supdeco, Rabat, Morocco
+                7, Avenue Macky Sall (ex Faidherbe), Dakar Plateau
               </h5>
             </div>
             <div className="flex gap-2 mt-5">
               <FaPhone className="text-azure-500 text-2xl" />
               <Link
-                href="tel:+212708301269"
-                title="Président"
+                href="tel:+221774130411"
+                title="Présidente du Club"
                 className="text-base font-normal text-white"
               >
-                +212 7 08 30 12 69 (P)
+                +221 77 413 04 11 (Présidente)
               </Link>
             </div>
             <div className="flex gap-2 mt-5">
               <FaPhone className="text-azure-500 text-2xl" />
               <Link
-                href="tel:+212674984499"
-                title="Vice Président"
+                href="tel:+221776861535"
+                title="Responsable Commercial"
                 className="text-base font-normal text-white"
               >
-                +212 6 74 98 44 99 (VP)
+                +221 77 686 15 35 (Resp. Commercial)
               </Link>
             </div>
             <div className="flex gap-2 mt-5">
               <FaEnvelope className="text-azure-500 text-2xl" />
               <h5 className="text-base font-normal text-white">
-                supdeco.je.media@gmail.com
+                juniorentreprise@supdeco.edu.sn
               </h5>
             </div>
           </div>
@@ -95,7 +95,7 @@ const footer = () => {
           </h4>
           <h4 className="text-offwhite text-sm text-center mt-5 lg:mt-0 lg:text-start font-normal">
             Fait avec ❤️ par{" "}
-            <Link href="https://ahmedidrissi.com" target="_blank">
+            <Link href="/" target="_blank">
               la Supdeco Junior Entreprise
             </Link>
           </h4>

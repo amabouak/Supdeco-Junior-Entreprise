@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer";
 
 export const metadata = {
   title: "Supdeco Junior Entreprise",
-  description: "Supdeco Junior Entreprise Website",
+  description: "Votre partenaire stratégique pour des solutions innovantes en stratégie, marketing et communication au Sénégal.",
 };
 
 export default function RootLayout({
@@ -18,44 +18,44 @@ export default function RootLayout({
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/favicon_io/apple-touch-icon.png"
+          href="/assets/logo/logo_junior.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon_io/favicon-32x32.png"
+          href="/assets/logo/logo_junior.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon_io/favicon-16x16.png"
+          href="/assets/logo/logo_junior.png"
         />
         <link rel="manifest" href="/favicon_io/site.webmanifest" />
         <meta
           property="og:image"
-          content="https://ensiasje.netlify.app/preview.jpg"
+          content="/assets/logo/logo_junior.png"
         />
-        <meta property="og:title" content="Junior Entreprise ENSIAS" />
+        <meta property="og:title" content="Supdeco Junior Entreprise" />
         <meta
           property="og:description"
-          content="Junior Entreprise ENSIAS Website"
+          content="Votre partenaire stratégique pour des solutions innovantes en stratégie, marketing et communication au Sénégal."
         />
-        <meta property="og:site_name" content="Junior Entreprise ENSIAS" />
-        <meta property="og:url" content="https://ensiasje.netlify.app" />
+        <meta property="og:site_name" content="Supdeco Junior Entreprise" />
+        <meta property="og:url" content="https://supdecoje.sn" />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="keywords" content="ENSIAS, Junior, Entreprise, JE ENSIAS, Junior Entreprise ENSIAS, JEE" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta name="keywords" content="Supdeco, Junior, Entreprise, stratégie, marketing, communication, Sénégal" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Junior Entreprise ENSIAS" />
+        <meta name="twitter:title" content="Supdeco Junior Entreprise" />
         <meta
           name="twitter:description"
-          content="Junior Entreprise ENSIAS Website"
+          content="Votre partenaire stratégique pour des solutions innovantes en stratégie, marketing et communication au Sénégal."
         />
         <meta
           name="twitter:image"
-          content="https://ensiasje.netlify.app/preview.jpg"
+          content="/assets/logo/logo_junior.png"
         />
       </head>
       <body>
