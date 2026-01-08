@@ -48,7 +48,7 @@ function Navbar() {
         >
           <Link aria-current="page" className="flex items-center" href="/">
             <Image
-              src="/assets/logo/logo_junior.png"
+              src="/assets/logo/SJE.png"
               width={65}
               height={65}
               alt="logo"
@@ -77,7 +77,7 @@ function Navbar() {
         >
           <div className="flex gap-2">
             <Link
-              href="https://www.linkedin.com/company/je-ensias/"
+              href="https://www.linkedin.com/company/junior-entreprise-jpce/"
               target="_blank"
               className={
                 `flex items-center justify-center w-8 h-8 text-white rounded-full` +
@@ -91,7 +91,7 @@ function Navbar() {
               <FaLinkedinIn />
             </Link>
             <Link
-              href="https://web.facebook.com/profile.php?id=61575353780407"
+              href="#"
               target="_blank"
               className={
                 `flex items-center justify-center w-8 h-8 text-white rounded-full` +
@@ -105,7 +105,7 @@ function Navbar() {
               <FaFacebookF />
             </Link>
             <Link
-              href="https://www.instagram.com/junior.entreprise.ensias/"
+              href="https://www.instagram.com/supdeco_junior_entreprise?igsh=bTQzMGZqcW9paGN1"
               target="_blank"
               className={
                 `flex items-center justify-center w-8 h-8 text-white rounded-full` +

@@ -8,6 +8,9 @@ interface TeamItemCardProps {
 }
 
 const TeamItemCard = ({ item }: TeamItemCardProps) => {
+  const linkedinHref = item.linkedin?.startsWith("http")
+    ? item.linkedin
+    : `https://www.linkedin.com/in/${item.linkedin}`;
   return (
     <div className="team-item h-[360px] rounded-lg border border-gray-200 shadow-md mr-2 p-5 mx-1 mb-7 flex flex-col items-center justify-center gap-1">
       <div className="team-img mb-5">
@@ -23,17 +26,18 @@ const TeamItemCard = ({ item }: TeamItemCardProps) => {
         <h3 className="text-md md:text-lg lg:text-xl text-center font-medium text-azure-600 mb-2 text-truncate">
           {item.name}
         </h3>
-        <p className="text-sm text-center text-gray-600 mb-2">{item.position}</p>
+        <p className="text-sm text-center text-gray-600 mb-2">
+          {item.position}
+        </p>
         <div className="team-social flex gap-2">
           <a
-            href={`https://www.linkedin.com/in/${item.linkedin}`}
+            href={linkedinHref}
             target="_blank"
             rel="noopener noreferrer"
             className="text-azure-600 hover:text-azure-500"
           >
             <FaLinkedin />
           </a>
-   
         </div>
       </div>
     </div>
@@ -41,4 +45,3 @@ const TeamItemCard = ({ item }: TeamItemCardProps) => {
 };
 
 export default TeamItemCard;
-

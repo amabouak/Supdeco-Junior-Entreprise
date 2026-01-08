@@ -47,7 +47,7 @@ const About = () => {
             {/* Right column */}
             <div className="col-span-6 lg:col-span-5 max-h-[500px] px-5">
               <Image
-                src="/assets/about/business.jpg"
+                src="/assets/about/ancien.jpeg"
                 alt="supdeco"
                 width={500}
                 height={500}

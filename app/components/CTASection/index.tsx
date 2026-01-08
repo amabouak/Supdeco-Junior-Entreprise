@@ -55,7 +55,7 @@ const CTASection = () => {
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href="#contact"
+                href="/Contact"
                 className="inline-flex items-center gap-3 bg-white text-azure-950 px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transition-all"
               >
                 Obtenir un devis

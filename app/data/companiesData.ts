@@ -9,7 +9,7 @@ export const companiesData: CompanyItem[] = [
     },
     {
         name: "Junior Entreprise Sénégal",
-        logo: "/assets/carousel/logo_junior-remove.png",
+        logo: "/assets/carousel/junior_entreprise.png",
         url: "https://junior-entreprise.sn"
     },
     {
@@ -24,7 +24,7 @@ export const companiesData: CompanyItem[] = [
     },
     {
         name: "Junior Entreprise Sénégal",
-        logo: "/assets/carousel/logo_junior-remove.png",
+        logo: "/assets/carousel/junior_entreprise.png",
         url: "https://junior-entreprise.sn"
     },
     {

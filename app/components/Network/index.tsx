@@ -16,7 +16,7 @@ const Aboutdata: datatype[] = [
     paragraph: "École Supérieure d'Informatique et de Télécommunication, excellence technologique au Sénégal.",
   },
   {
-    imgSrc: "/assets/carousel/logo_junior-remove.png",
+    imgSrc: "/assets/carousel/junior_entreprise.png",
     company: "Supdeco Junior Entreprise",
     paragraph: "Votre partenaire stratégique pour des solutions innovantes en stratégie, marketing et communication.",
   },

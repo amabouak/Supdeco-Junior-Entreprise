@@ -16,7 +16,7 @@ const footer = () => {
 
           <div className="col-span-12 lg:col-span-4 flex flex-col items-center lg:items-start">
             <Image
-              src="/assets/carousel/supdeco-remove.png"
+              src="/assets/carousel/junior_entreprise.png"
               width={160}
               height={60}
               alt="logo"

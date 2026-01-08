@@ -23,6 +23,13 @@ export const teamData: TeamItem[] = [
    
   },
   {
+    name: "Oulimata SARR",
+    position: "Vice-Trésorière",
+    img: "",
+    linkedin: "https://www.linkedin.com/in/oulimata-sarr-81a69b358/",
+   
+  },
+  {
     name: "Soda DIASSE",
     position: "Responsable Marketing",
     img: "",
@@ -37,10 +44,10 @@ export const teamData: TeamItem[] = [
    
   },
   {
-    name: "Khady NDIAYE",
-    position: "Assistante Marketing",
+    name: "Seynabou SOW",
+    position: "Chargé d'affaire",
     img: "",
-    linkedin: "ahmedidrissi",
+    linkedin: "https://www.linkedin.com/in/seynabou-sow-101327357/",
    
   },
   {
@@ -75,7 +82,7 @@ export const teamData: TeamItem[] = [
     name: "N'gamet CAMARA",
     position: "Responsable Commerciale",
     img: "",
-    linkedin: "https://www.linkedin.com/in/n’gamet-camara-455798332/",
+    linkedin: "https://www.linkedin.com/in/n%E2%80%99gamet-camara-455798332/",
     
   }
 ];
