@@ -45,7 +45,7 @@ export default class Companies extends Component {
           {data.map((item, i) => (
             <div key={i}>
               <Image
-                className="mx-auto"
+                className="mx-auto w-auto h-auto"
                 src={item.logo}
                 alt={item.name}
                 width={100}

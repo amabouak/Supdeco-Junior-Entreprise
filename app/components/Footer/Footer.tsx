@@ -20,7 +20,8 @@ const footer = () => {
               width={160}
               height={60}
               alt="logo"
-              className="pb-8"
+              priority
+              className="pb-8 w-auto h-auto"
             />
             <div className="mb-5 lg:mb-0">
               <FooterSocialMedia />
@@ -119,4 +120,3 @@ const footer = () => {
 };
 
 export default footer;
-

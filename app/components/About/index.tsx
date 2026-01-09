@@ -21,25 +21,33 @@ const About = () => {
                 </h1>
               </div>
               <p className="font-normal text-lg text-black text-opacity-90 mb-5">
-                Supdeco Junior Entreprise est une structure à vocation professionnelle portée et pilotée par les étudiants du Groupe Supdeco Dakar.
-                Depuis sa création, elle accompagne entreprises, entrepreneurs et organisations dans des domaines tels que la stratégie, le marketing, la communication et l'informatique.
+                Supdeco Junior Entreprise est une structure à vocation
+                professionnelle portée et pilotée par les étudiants du Groupe
+                Supdeco Dakar. Depuis sa création, elle accompagne entreprises,
+                entrepreneurs et organisations dans des domaines tels que la
+                stratégie, le marketing, la communication et l'informatique.
               </p>
-              
+
               {/* NOS VALEURS */}
               <div className="mb-8">
-                <h3 className="text-2xl font-bold text-azure-800 mb-4">Nos Valeurs</h3>
+                <h3 className="text-2xl font-bold text-azure-800 mb-4">
+                  Nos Valeurs
+                </h3>
                 <div className="grid grid-cols-1 gap-3">
                   <h5 className="mb-3 flex items-center text-lg">
                     <FaCheck className="text-azure-600 me-4" />
-                    Professionnalisme : Une exigence constante dans la qualité des livrables et le respect des engagements.
+                    Professionnalisme : Une exigence constante dans la qualité
+                    des livrables et le respect des engagements.
                   </h5>
                   <h5 className="mb-3 flex items-center text-lg">
                     <FaCheck className="text-azure-600 me-4" />
-                    Engagement : Une implication totale de nos équipes sur chaque projet confié.
+                    Engagement : Une implication totale de nos équipes sur
+                    chaque projet confié.
                   </h5>
                   <h5 className="mb-3 flex items-center text-lg">
                     <FaCheck className="text-azure-600 me-4" />
-                    Intégrité : Transparence, confidentialité et honnêteté dans toutes nos collaborations.
+                    Intégrité : Transparence, confidentialité et honnêteté dans
+                    toutes nos collaborations.
                   </h5>
                 </div>
               </div>
@@ -51,7 +59,8 @@ const About = () => {
                 alt="supdeco"
                 width={500}
                 height={500}
-                className="rounded-lg w-full h-full object-cover"
+                priority
+                className="rounded-lg w-full h-auto object-cover"
               />
             </div>
           </div>
@@ -62,4 +71,3 @@ const About = () => {
 };
 
 export default About;
-
