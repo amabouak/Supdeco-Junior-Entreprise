@@ -1,3 +1,7 @@
+// components/footer/index.tsx
+
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { footerData } from "@/app/data/footerData";
@@ -7,13 +11,12 @@ import FooterSocialMedia from "./FooterSocialMedia";
 const data = footerData;
 const year = new Date().getFullYear();
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className="bg-black opacity-90 mt-40">
       <div className="w-full pt-8">
         <div className="my-20 mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 grid grid-cols-12 gap-y-10 gap-x-0 xl:gap-x-8">
           {/* COLUMN-1 */}
-
           <div className="col-span-12 lg:col-span-4 flex flex-col items-center lg:items-start">
             <Image
               src="/assets/carousel/junior_entreprise.png"
@@ -28,21 +31,20 @@ const footer = () => {
             </div>
           </div>
 
-          {/* CLOUMN-2/3 */}
-
+          {/* COLUMNS-2/3 */}
           {data.map((item) => (
             <div
               key={item.id}
               className="group relative col-span-12 lg:col-span-2 flex flex-col items-center lg:items-start"
             >
               <ul>
-                {item.link.map((link: string, index: number) => (
+                {item.links.map((linkItem, index: number) => (
                   <li key={index} className="mb-5 text-center lg:text-start">
                     <Link
-                      href="/"
+                      href={linkItem.href}
                       className="text-white text-sm font-normal mb-6 space-links"
                     >
-                      {link}
+                      {linkItem.label}
                     </Link>
                   </li>
                 ))}
@@ -50,8 +52,7 @@ const footer = () => {
             </div>
           ))}
 
-          {/* CLOUMN-4 */}
-
+          {/* COLUMN-4 */}
           <div className="col-span-12 lg:col-span-4 flex flex-col items-center lg:items-start">
             <div className="flex gap-2">
               <FaMapMarkerAlt className="text-azure-500 text-2xl" />
@@ -89,7 +90,6 @@ const footer = () => {
         </div>
 
         {/* COPYRIGHT */}
-
         <div className="py-8 mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 lg:flex items-center justify-between border-t border-white/20">
           <h4 className="text-offwhite text-sm text-center lg:text-start font-normal">
             &copy; {year} Supdeco Junior Entreprise.
@@ -102,13 +102,13 @@ const footer = () => {
           </h4>
           <div className="flex gap-5 mt-5 lg:mt-0 justify-center lg:justify-start">
             <h4 className="text-offwhite text-sm font-normal">
-              <Link href="/" target="_blank">
+              <Link href="/confidentialite">
                 Politique de confidentialité
               </Link>
             </h4>
             <div className="h-5 bg-bordertop w-0.5"></div>
             <h4 className="text-offwhite text-sm font-normal">
-              <Link href="/" target="_blank">
+              <Link href="/conditions">
                 Conditions générales
               </Link>
             </h4>
@@ -119,4 +119,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

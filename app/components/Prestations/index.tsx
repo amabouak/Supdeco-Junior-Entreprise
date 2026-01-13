@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import PrestationCard from "./PrestationCard";
 import { prestationsData } from "@/app/data/prestationsData";
 import { RiBriefcase5Line } from "react-icons/ri";
+import Link from "next/link";
 
 const Prestations = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -57,6 +58,7 @@ const Prestations = () => {
 
         {/* CTA - SANS BlurFade */}
         <div className="text-center mt-24">
+          <Link href="/Contact">
           <motion.button
             initial={{ opacity: 0, scale: 0.9 }}
             animate={isMounted ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
@@ -82,6 +84,8 @@ const Prestations = () => {
           >
             Obtenir un devis personnalisé
           </motion.button>
+          </Link>
+
         </div>
       </div>
     </div>

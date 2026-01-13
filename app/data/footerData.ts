@@ -1,12 +1,24 @@
+
+
 import { FooterItem } from "../types/footer";
 
 export const footerData: FooterItem[] = [
   {
     id: 1,
-    link: ['Accueil', 'À propos', 'Services', 'Projets'],
+    links: [
+      { label: "Accueil",         href: "/" },
+      { label: "À propos",        href: "/about" },
+      { label: "Nos Prestations", href: "/Nos-prestations" },
+      { label: "Projets",         href: "#" },
+    ],
   },
   {
     id: 2,
-    link: ['Équipe', 'Contact', 'Confidentialité', 'Conditions'],
+    links: [
+      { label: "Équipe",          href: "/equipes" },
+      { label: "Contact",         href: "/Contact" },
+      { label: "Confidentialité", href: "/confidentialite" },
+      { label: "Conditions",      href: "/conditions" },
+    ],
   },
 ];
