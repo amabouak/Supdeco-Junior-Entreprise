@@ -17,8 +17,8 @@ export const footerData: FooterItem[] = [
     links: [
       { label: "Équipe",          href: "/equipes" },
       { label: "Contact",         href: "/Contact" },
-      { label: "Confidentialité", href: "/confidentialite" },
-      { label: "Conditions",      href: "/conditions" },
+      { label: "Confidentialité", href: "#" },
+      { label: "Conditions",      href: "#" },
     ],
   },
 ];
