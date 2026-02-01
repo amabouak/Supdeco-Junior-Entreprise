@@ -28,8 +28,9 @@ const PrestationCard = ({ prestation, index }: PrestationCardProps) => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
         <div className="absolute bottom-4 left-4 right-4">
           <span className="px-4 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-sm font-bold text-emerald-700 shadow-lg">
-            Expert
+            {prestation.badge}
           </span>
+
         </div>
       </div>
 

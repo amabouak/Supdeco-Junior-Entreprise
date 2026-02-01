@@ -18,7 +18,7 @@ export const companiesData: CompanyItem[] = [
   },
    {
     name: "IST",
-    logo: "/assets/carousel/IST.png",
+    logo: "/assets/carousel/ist1.png",
     url: "https://supdeco.edu.sn",
   },
   {
@@ -38,7 +38,7 @@ export const companiesData: CompanyItem[] = [
   },
   {
     name: "IST",
-    logo: "/assets/carousel/IST.png",
+    logo: "/assets/carousel/ist1.png",
     url: "https://supdeco.edu.sn",
   },
 ];

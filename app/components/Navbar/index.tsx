@@ -52,7 +52,8 @@ function Navbar() {
               width={65}
               height={65}
               alt="logo"
-              className="h-10 w-auto"
+              className="h-30 w-auto"
+
             />
             <p className="sr-only">Accueil</p>
           </Link>

@@ -4,84 +4,92 @@ export const teamData: TeamItem[] = [
   {
     name: "Diawo SARR",
     position: "Presidente",
-    img: "",
+    img: "diawo.jpeg",
     linkedin: "https://www.linkedin.com/in/diawo-sarr-a5123726b/",
     
   },
   {
     name: "Adama Sirah BAH",
     position: "Secrétaire Générale",
-    img: "",
+    img: "adama.jpeg",
     linkedin: "https://www.linkedin.com/in/adama-sira-bah-111499340/",
      
   },
   {
     name: "Aby Mintou SEYE",
     position: "Trésorière",
-    img: "",
+    img: "aby.jpeg",
     linkedin: "https://www.linkedin.com/in/aby-mintou-seye-0a2236288/",
    
   },
   {
     name: "Oulimata SARR",
     position: "Vice-Trésorière",
-    img: "",
+    img: "oulimata.jpeg",
     linkedin: "https://www.linkedin.com/in/oulimata-sarr-81a69b358/",
    
   },
   {
     name: "Soda DIASSE",
     position: "Responsable Marketing",
-    img: "",
+    img: "soda.jpeg",
     linkedin: "https://www.linkedin.com/in/soda-diasse-872520357/",
     
   },
   {
     name: "Houda KOUAME",
     position: "Responsable Branding et Contenu",
-    img: "",
+    img: "nour.jpeg",
     linkedin: "https://www.linkedin.com/in/nour-el-houda-kouame-b2abb6357/",
    
   },
   {
+    name: "Khady NDIAYE",
+    position: "Assistante communication",
+    img: "khady.jpeg",
+    linkedin: "https://www.linkedin.com/in/khady-ndiaye-75713a358/",
+   
+  },
+
+  {
     name: "Seynabou SOW",
     position: "Chargé d'affaire",
-    img: "",
+    img: "seynabou.jpeg",
     linkedin: "https://www.linkedin.com/in/seynabou-sow-101327357/",
    
   },
   {
     name: "Ibrahima Saidou DIALLO",
     position: "Responsable IT",
-    img: "ibrahima.jpg",
+    img: "ibrahima.jpeg",
     linkedin: "https://www.linkedin.com/in/ibrahima-saidou-diallo-049302329/",
     
   },
   {
     name: "Ange OKOUAKA",
     position: "Assistant IT",
-    img: "",
+    img: "ange.jpeg",
     linkedin: "https://www.linkedin.com/in/ange-okouaka-1b3522393/",
    
   },
   {
     name: "Khamis AMABOUA",
     position: "Responsable du Pôle Projet",
-    img: "",
+    img: "khamis.jpeg",
     linkedin: "https://www.linkedin.com/in/khamis-amaboua-134550282/",
     
   },
   {
     name: "Aristide BINDZI",
     position: "Business Analyst",
-    img: "",
+    img: "aris.jpeg",
     linkedin: "https://www.linkedin.com/in/bindzi-aristide-430397253/",
    
   },
   {
     name: "N'gamet CAMARA",
     position: "Responsable Commerciale",
-    img: "",
+    img: "ngammet.jpeg",
     linkedin: "https://www.linkedin.com/in/n%E2%80%99gamet-camara-455798332/",
     
   }

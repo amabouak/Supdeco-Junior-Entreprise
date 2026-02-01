@@ -4,6 +4,7 @@ export interface Prestation {
   description: string;
   services: string[];
   image: string;
+  badge: string;
 }
 
 export const prestationsData: Prestation[] = [
@@ -17,17 +18,19 @@ export const prestationsData: Prestation[] = [
       "Business plan",
       "Étude de positionnement"
     ],
-    image: "/assets/prestations/strategie.jpg"
+    image: "/assets/prestations/strategie.jpg",
+    badge: "STRATÉGIE"
   },
   {
-    category: "MARKETING & COMMUNICATION", 
+    category: "MARKETING & COMMUNICATION",
     description: "Nous vous accompagnons dans la construction de messages clairs et cohérents ainsi qu'une meilleure visibilité.",
     services: [
       "Stratégie de communication",
       "Plan de communication", 
       "Marketing digital"
     ],
-    image: "/assets/prestations/marketing.jpg"
+    image: "/assets/prestations/marketing.jpg",
+    badge: "MARKETING & COMMUNICATION"
   },
   {
     category: "EXPÉRIENCE CLIENT",
@@ -38,7 +41,8 @@ export const prestationsData: Prestation[] = [
       "Étude de satisfaction",
       "Focus group"
     ],
-    image: "/assets/prestations/client.jpg"
+    image: "/assets/prestations/client.jpg",
+    badge: "EXPÉRIENCE CLIENT"
   },
   {
     category: "ENTREPRENEURIAT",
@@ -48,7 +52,8 @@ export const prestationsData: Prestation[] = [
       "Pitch deck",
       "Étude de faisabilité"
     ],
-    image: "/assets/prestations/entrepreneuriat.jpg"
+    image: "/assets/prestations/entrepreneuriat.jpg",
+    badge: "ENTREPRENEURIAT"
   },
   {
     category: "INFORMATIQUE & DIGITAL",
@@ -57,6 +62,7 @@ export const prestationsData: Prestation[] = [
       "Création et design de sites web",
       "Développement d'applications mobiles"
     ],
-    image: "/assets/prestations/digital.jpg"
+    image: "/assets/prestations/digital.jpg",
+    badge: "INFORMATIQUE & DIGITAL"
   }
 ];
