@@ -7,9 +7,8 @@ const Banner = () => {
   return (
     <div
         style={{
-                  background: "linear-gradient(to bottom, #082f49 0%, #0369a1 60%, #f8fafc 100%)"
-         }}
-
+  background: "linear-gradient(to bottom, #020617 0%, #082f49 50%, #075985 100%)"
+}}
     >
       <div className="mx-auto relative min-h-[100vh] flex flex-col justify-center items-center">
         <div className="text-center z-[1]">

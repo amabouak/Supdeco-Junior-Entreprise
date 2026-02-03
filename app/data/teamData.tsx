@@ -37,9 +37,9 @@ export const teamData: TeamItem[] = [
     
   },
   {
-    name: "Houda KOUAME",
+    name: "Nour El Houda KOUAME",
     position: "Responsable Branding et Contenu",
-    img: "nour.jpeg",
+    img: "houda.jpeg",
     linkedin: "https://www.linkedin.com/in/nour-el-houda-kouame-b2abb6357/",
    
   },

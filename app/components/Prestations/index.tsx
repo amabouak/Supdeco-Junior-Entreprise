@@ -15,7 +15,7 @@ const Prestations = () => {
 
   
   return (
-    <div className="min-h-screen py-24 bg-gradient-to-br from-slate-50/50 to-emerald-50/50">
+    <div className="min-h-screen pt-40 pb-24 bg-gradient-to-br from-slate-50/50 to-emerald-50/50">
       <div className="mx-auto px-4 sm:px-12 max-w-7xl">
         
         

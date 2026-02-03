@@ -27,7 +27,7 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
         <article className="relative w-270 max-w-lg pb-10 flex flex-col space-y-6 h-full">
           <header className="pt-6 pl-6 flex items-center justify-between">
             <Image
-              src="/assets/logo/logo.png"
+              src="/assets/logo/SJE.png"
               width={80}
               height={80}
               alt="logo"

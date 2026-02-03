@@ -11,30 +11,35 @@ const TeamItemCard = ({ item }: TeamItemCardProps) => {
   const linkedinHref = item.linkedin?.startsWith("http")
     ? item.linkedin
     : `https://www.linkedin.com/in/${item.linkedin}`;
+
   return (
-    <div className="team-item h-[360px] rounded-lg border border-gray-200 shadow-md mr-2 p-5 mx-1 mb-7 flex flex-col items-center justify-center gap-1">
-      <div className="team-img mb-5">
+    <div className="team-item h-[400px] w-full max-w-[280px] rounded-lg border border-gray-200 shadow-md p-5 mx-auto mb-7 flex flex-col items-center justify-between gap-1 bg-white">
+      {/* Conteneur Image Fixe */}
+      <div className="relative w-32 h-32 md:w-40 md:h-40 mb-5 overflow-hidden rounded-full shadow-inner">
         <Image
           src={`/assets/team/${item.img}`}
           alt={item.name}
-          width={130}
-          height={130}
-          className="w-full h-full object-cover rounded-full"
+          fill
+          sizes="(max-width: 768px) 128px, 160px"
+          className="object-cover"
+          priority={false}
         />
       </div>
-      <div className="team-content flex flex-col items-center justify-center">
-        <h3 className="text-md md:text-lg lg:text-xl text-center font-medium text-azure-600 mb-2 text-truncate">
+
+      <div className="team-content flex flex-col items-center justify-center w-full">
+        <h3 className="text-md md:text-lg font-bold text-center text-azure-600 mb-1 line-clamp-2">
           {item.name}
         </h3>
-        <p className="text-sm text-center text-gray-600 mb-2">
+        <p className="text-sm text-center text-gray-500 mb-4 h-10 flex items-center">
           {item.position}
         </p>
-        <div className="team-social flex gap-2">
+        
+        <div className="team-social mt-auto">
           <a
             href={linkedinHref}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-azure-600 hover:text-azure-500"
+            className="text-2xl text-azure-600 hover:text-azure-700 transition-colors"
           >
             <FaLinkedin />
           </a>

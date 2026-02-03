@@ -21,7 +21,7 @@ const Team = () => {
   }, []);
 
   const settings = {
-    dots: true,
+    dots: false,  // Dots supprimés
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
