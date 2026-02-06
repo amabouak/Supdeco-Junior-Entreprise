@@ -64,18 +64,16 @@ const Process = () => {
                 <div className="hidden lg:block absolute top-12 left-1/2 w-full h-0.5 bg-gradient-to-r from-azure-300 to-transparent" />
               )}
               
+              {/* Suppression du whileHover ici pour la carte */}
               <motion.div
                 className="bg-white rounded-2xl p-8 shadow-xl text-center h-full relative z-10"
-                whileHover={{ y: -10, scale: 1.02 }}
-                transition={{ duration: 0.3 }}
               >
-                <motion.div
+                {/* Suppression du whileHover ici pour l'icône */}
+                <div
                   className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-azure-500 to-azure-700 flex items-center justify-center text-white shadow-lg"
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.6 }}
                 >
                   {step.icon}
-                </motion.div>
+                </div>
                 <h3 className="text-xl font-bold text-midnightblue mb-3">
                   {step.title}
                 </h3>
@@ -92,4 +90,3 @@ const Process = () => {
 };
 
 export default Process;
-

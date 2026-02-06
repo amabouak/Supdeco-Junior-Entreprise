@@ -4,8 +4,8 @@ import { FaCheck, FaSmile, FaUserFriends } from "react-icons/fa";
 export const statsData: StatItem[] = [
   {
     icon: <FaUserFriends className="text-4xl text-azure-500" />,
-    value: 5,
-    suffix: "+",
+    value: 30,
+    
     heading: "Années d'expérience",
     subheading:
       "Nous fournissons des solutions innovantes à nos clients depuis plus de 5 ans.",

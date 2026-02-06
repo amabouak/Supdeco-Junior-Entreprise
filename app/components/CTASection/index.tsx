@@ -88,7 +88,7 @@ const CTASection = () => {
               <div className="text-azure-200">Clients satisfaits</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white">5</div>
+              <div className="text-4xl font-bold text-white">30</div>
               <div className="text-azure-200">Années d'expérience</div>
             </div>
           </motion.div>

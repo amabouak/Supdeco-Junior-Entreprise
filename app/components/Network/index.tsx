@@ -40,55 +40,35 @@ const Network = () => {
   return (
     <div className="bg-babyblue" id="project">
       <div className="mx-auto max-w-2xl py-20 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <motion.h3
-          className="text-4xl sm:text-6xl font-semibold text-center my-10 lh-81"
-          initial={{ opacity: 0, y: -30 }}
-          animate={isMounted ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8 }}
-        >
-          Nos partenaires au Sénégal
-        </motion.h3>
+        
+        {/* On a retiré le titre H3 et l'image de la map ici */}
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={isMounted ? { opacity: 1, scale: 1 } : {}}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <Image
-            src={"/assets/network/map.png"}
-            alt={"map-image"}
-            width={1400}
-            height={800}
-            className="rounded-lg shadow-xl"
-          />
-        </motion.div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-4 lg:gap-x-8 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-4 lg:gap-x-8">
           {Aboutdata.map((item, i) => (
             <motion.div
               key={i}
               className="bg-white rounded-2xl p-5 shadow-xl"
               initial={{ opacity: 0, y: 50 }}
               animate={isMounted ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: 0.3 + i * 0.1 }}
-              whileHover={{ y: -10, scale: 1.02 }}
+              transition={{ duration: 0.6, delay: 0.1 * i }}
+              // J'ai aussi enlevé le whileHover ici pour rester cohérent avec ta demande précédente
             >
-              <div className="flex justify-start items-center gap-2">
+              <div className="flex justify-start items-center gap-4">
                 <Image
                   src={item.imgSrc}
                   alt={item.company}
                   width={55}
                   height={55}
-                  className="mb-2 w-auto h-auto object-contain"
+                  className="mb-2 w-auto h-12 object-contain"
                 />
-                <h4 className="text-xl font-medium text-midnightblue">
+                <h4 className="text-xl font-bold text-midnightblue">
                   {item.company}
                 </h4>
               </div>
-              <hr />
-              <h4 className="text-lg font-normal text-bluegrey my-2">
+              <hr className="my-3" />
+              <p className="text-lg font-normal text-bluegrey">
                 {item.paragraph}
-              </h4>
+              </p>
             </motion.div>
           ))}
         </div>
