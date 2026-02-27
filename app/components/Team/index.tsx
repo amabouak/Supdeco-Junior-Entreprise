@@ -73,8 +73,8 @@ const Team = () => {
               NOTRE ÉQUIPE
             </h5>
 
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-azure-950 mb-6 leading-none relative z-10">
-              Pluridisciplinaire
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-azure-950 mb-6 leading-none relative z-10 break-words hyphens-auto">
+            Pluridisciplinaire
             </h1>
 
             <p className="text-xl md:text-2xl text-bluegrey max-w-3xl mx-auto leading-relaxed font-medium mb-12 relative z-10">
