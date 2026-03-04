@@ -19,7 +19,7 @@ const TopBanner = () => {
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3 text-center">
                 <p className="text-azure-100 text-sm">Diawo Sarr</p>
                 <p className="text-white font-semibold">+221 77 413 04 11</p>
-                <p className="text-azure-200 text-xs">Présidente du Club</p>
+                <p className="text-azure-200 text-xs">Présidente</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3 text-center">
                 <p className="text-azure-100 text-sm">N'gamet Camara</p>

@@ -13,7 +13,7 @@ export const statsData: StatItem[] = [
   {
     icon: <FaCheck className="text-4xl text-azure-500" />,
     value: 50,
-    suffix: "k",
+    
     heading: "Projets réalisés",
     subheading:
       "Livraison réussie d’une large gamme de missions dans des secteurs variés.",
@@ -28,7 +28,7 @@ export const statsData: StatItem[] = [
   },
   {
     icon: <FaUserFriends className="text-4xl text-azure-500" />,
-    value: 5,
+    value: 10,
     suffix: "+",
     heading: "Membres de l'équipe",
     subheading:
